@@ -1,0 +1,142 @@
+/* === General Reset === */
+body {
+  background-color: #121212;
+  color: #f0f0f0;
+  font-family: 'Segoe UI', sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* === Top Social Bar === */
+.bg-light {
+  background-color: #1e1e1e !important;
+  border-bottom: 1px solid #2c2c2c !important;
+}
+
+.bg-light a {
+  color: #ccc;
+  font-size: 1.2rem;
+  margin-left: 10px;
+  transition: color 0.3s ease;
+}
+
+.bg-light a:hover {
+  color: #0dcaf0;
+}
+
+/* === Navbar === */
+.navbar {
+  background-color: #1e1e1e !important;
+}
+
+.navbar .nav-link {
+  color: #ccc !important;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: #0dcaf0 !important;
+}
+
+section h2 {
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+}
+
+#about p {
+  font-size: 1.1rem;
+  color: #ddd;
+}
+
+#about img {
+  border-radius: 50%;
+  border: 1px solid rgb(255, 191, 0) !important;;
+  background-color: #1e1e1e;
+  padding: 5px;
+  box-shadow: 0 0 20px rgba(0, 123, 255, 0.3);
+}
+
+
+.card {
+  background-color: #1f1f1f;
+  color: #f0f0f0;
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.card-title {
+  color: #ffffff;
+}
+
+.card-text {
+  color: #bbbbbb;
+}
+
+#resume {
+  background-color: #1e1e1e;
+}
+
+#resume h2 {
+  color: #ffffff;
+}
+
+#resume .btn-success {
+  padding: 10px 25px;
+  font-weight: 600;
+  background-color: #198754;
+  border: none;
+}
+
+#resume .btn-success:hover {
+  background-color: #157347;
+}
+
+
+footer {
+  background-color: #1e1e1e;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ccc;
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #0dcaf0;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.25rem;
+  }
+
+  section h2 {
+    font-size: 1.6rem;
+  }
+
+  #about p {
+    font-size: 1rem;
+  }
+
+  .card-title {
+    font-size: 1.1rem;
+  }
+
+  .card-text {
+    font-size: 0.95rem;
+  }
+
+  footer p {
+    font-size: 0.9rem;
+  }
+
+
+}
